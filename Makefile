@@ -1,6 +1,6 @@
  .PHONY: cert-setup image fetch patch configure build conf-setup run
 
-IMAGE_NAME = masaori/docker-nginx:1.9.3-http2
+IMAGE_NAME = masaori/nginx-dev:latest
 
 cert-setup:
 	if [ ! -e server.key ]; then \
